@@ -1,0 +1,18 @@
+
+#To calculate netbillamount
+price1 = 100
+price2 = 20
+price3 = 10
+
+q1=float(input("Enter quantity1:"))
+q2=float(input("Enter quantity2:"))
+q3=float(input("Enter quantity3:"))
+
+netbillamount=((price1*q1)+(price2*q2)+(price3*q3))
+
+print("The netbillamount is:",netbillamount)
+
+Enter quantity1:2
+Enter quantity2:3
+Enter quantity3:4
+The netbillamount is: 300.0
