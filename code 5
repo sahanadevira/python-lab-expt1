@@ -1,0 +1,22 @@
+
+#ax^2+bx+c=0
+
+a = int(input("Enter a:"))
+b = int(input("Enter b:"))
+c = int(input("Enter c:"))
+
+x1 = (-b + ((b**2)-(4*a*c))**0.5)/2*a
+x2 = (-b - ((b**2)-(4*a*c))**0.5)/2*a
+
+print("The roots are", x1,x2)
+
+Enter a:2
+Enter b:8
+Enter c:4
+The roots are -2.3431457505076194 -13.65685424949238
+
+Enter a:1
+Enter b:5
+Enter c:6
+The roots are -2.0 -3.0
+
