@@ -1,0 +1,34 @@
+# area of shapes
+
+#area of circle
+print("To calculate area of circle")
+radius = float(input("Enter radius:"))
+area=(3.14*radius*radius)
+print("The area of the circle is :",area)
+
+#area of rectangle
+print("To calculate area of rectangle")
+length = float(input("Enter length:"))
+breadth = float(input("Enter breadth:"))
+area = length*breadth
+print("The area of the rectangle is:",area)
+
+#area of triangle
+print("To calculate area of triangle")
+length = float(input("Enter length:"))
+breadth = float(input("Enter breadth:"))
+area = 0.5*length*breadth
+print("The area of triangle is :",area)
+
+#area of cone
+print("To calculate area of cone")
+radius = float(input("Enter radius:"))
+height = float(input("Enter height:"))
+area = 3.14*radius*radius*height
+print("The area of cone is :",area)
+
+#area of square
+print("To calculate area of square")
+side=float(input("Enter side:"))
+area= side*side
+print("The area of square is:",area)
