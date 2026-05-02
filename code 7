@@ -1,0 +1,14 @@
+
+a=input("Enter value1:")
+b=input("Enter value2:")
+print("The values before swap ",a,b)
+temp=a
+a=b
+b=temp
+print("The values after swap ",a,b)
+
+Enter value1:7
+Enter value2:5
+The values before swap  7 5
+The values after swap  5 7
+
