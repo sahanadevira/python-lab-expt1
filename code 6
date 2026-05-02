@@ -1,0 +1,17 @@
+
+#sum of the digits
+
+n=int(input("Enter a three digit number"))
+a = n%10
+n = n//10
+b = n%10
+n = n//10
+c = n%10
+x= a+b+c
+print("Sum of the digits",x)
+
+
+Enter a:2
+Enter b:3
+Enter c:4
+The roots are (-2.9999999999999996+4.795831523312719j) (-3.0000000000000004-4.795831523312719j)
