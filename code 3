@@ -1,0 +1,26 @@
+
+#To calculate average
+
+print("calculation of average of CAT1 mark:")
+
+mark1=int(input("Enter material_science mark:"))
+mark2=int(input("Enter environmental_science mark:"))
+mark3=int(input("Enter math2 mark:"))
+mark4=int(input("Enter proffesional_english mark:"))
+mark5=int(input("Enter ECM mark:"))
+mark6=int(input("Enter tamil mark:"))
+
+average=((mark1+mark2+mark3+mark4+mark5+mark6)/6)
+
+print("The averge mark of CAT1 is:",average)
+
+
+
+calculation of average of CAT1 mark:
+Enter material_science mark:100
+Enter environmental_science mark:100
+Enter math2 mark:20
+Enter proffesional_english mark:3
+Enter ECM mark:90
+Enter tamil mark:90
+The averge mark of CAT1 is: 81.66666666666667
