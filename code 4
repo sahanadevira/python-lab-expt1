@@ -1,0 +1,10 @@
+
+print("First expt in python")
+a=7
+b=5
+c=a+b
+print("The sum is :",c)
+
+
+First expt in python
+The sum is : 12
